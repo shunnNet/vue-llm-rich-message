@@ -1,0 +1,37 @@
+{
+  "name": "@crazydos/vue-llm-rich-message",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Vue component for insert component in llm message",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": "https://github.com/shunnNet/vue-llm-rich-message",
+  "bugs": {
+    "url": "https://github.com/shunnNet/vue-llm-rich-message/issues"
+  },
+  "keywords": [
+    "vue",
+    "markdown",
+    "ChatGPT",
+    "llm",
+    "remark",
+    "rehype"
+  ],
+  "author": "shunnNet",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@crazydos/vue-markdown": "^0.1.1",
+    "rehype-raw": "^6.1.1",
+    "remark-gfm": "^3.0.1",
+    "vue": "^3.3.4"
+  }
+}
