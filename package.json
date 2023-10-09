@@ -1,7 +1,7 @@
 {
   "name": "@crazydos/vue-llm-rich-message",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Vue component for insert component in llm message",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -12,10 +12,13 @@
   "bugs": {
     "url": "https://github.com/shunnNet/vue-llm-rich-message/issues"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "vue",
     "markdown",
-    "ChatGPT",
+    "chatgpt",
     "llm",
     "remark",
     "rehype"
