@@ -111,10 +111,6 @@ const handleCS = () => {
 ```
 
 ## Notice
-- 隨著版本迭代，LLM 可能會對相同的 prompt 做出不同的行為，不同的 LLM 對相同的 prompt 也會有不同反應。如果你認為這個工具的 prompt 總是不出現你想要的結果，你也可以參考 `prompt.ts` 的內容，自己寫一個。這個工具只有特別針對 ChatGPT 做處理過。
-- 為了增加準確度，建議將 `temperature` 調至 `0`
-- 提供過多的 component 選擇給 llm 可能會導致表現不好，你可以試試看放到幾個符合你的需求。
-
 - With version iterations, LLM may exhibit different behaviors for the same prompt, and different LLMs may react differently to the same prompt. If you find that the tool consistently does not produce the desired results for your prompt, you can refer to the contents of `prompt.ts` and write your own. This tool has been specifically designed to handle `ChatGPT`.
 
 - To increase accuracy, it is recommended to set temperature to 0.
