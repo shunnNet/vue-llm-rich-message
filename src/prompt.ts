@@ -20,7 +20,7 @@ export const computeFormatHint = (component: ComponentOption[] | ComponentOption
         : ''
 
       return `--text you must insert ${i + 1}--
-<slot name="${item.component}"${attributes}></slot>
+<slot slot-name="${item.component}"${attributes}></slot>
   
 --text description ${i + 1}--
 ${item.description}`

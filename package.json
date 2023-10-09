@@ -29,7 +29,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@crazydos/vue-markdown": "^0.1.1",
+    "@crazydos/vue-markdown": "^0.2.0",
     "rehype-raw": "^6.1.1",
     "remark-gfm": "^3.0.1",
     "vue": "^3.3.4"

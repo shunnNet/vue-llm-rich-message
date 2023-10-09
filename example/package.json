@@ -9,7 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@crazydos/vue-llm-rich-message": "^0.1.0",
+    "@crazydos/vue-llm-rich-message": "^0.1.1",
+    "@crazydos/vue-markdown": "^0.2.0",
     "@vueuse/core": "^10.4.1",
     "vue": "^3.3.4"
   },
