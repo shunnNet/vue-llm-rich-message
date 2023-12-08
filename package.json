@@ -1,19 +1,21 @@
 {
   "name": "@crazydos/vue-llm-rich-message",
   "type": "module",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Vue component for insert component in llm message",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
   },
   "repository": "https://github.com/shunnNet/vue-llm-rich-message",
   "bugs": {
     "url": "https://github.com/shunnNet/vue-llm-rich-message/issues"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "keywords": [
     "vue",
@@ -26,15 +28,19 @@
   "author": "shunnNet",
   "license": "MIT",
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.16.0"
   },
   "devDependencies": {
-    "typescript": "^5.2.2"
+    "@vitejs/plugin-vue": "^4.5.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.6.4",
+    "vue-tsc": "^1.8.22"
   },
   "dependencies": {
     "@crazydos/vue-markdown": "^0.2.0",
     "rehype-raw": "^6.1.1",
     "remark-gfm": "^3.0.1",
-    "vue": "^3.3.4"
+    "vue": "^3.3.8"
   }
 }
